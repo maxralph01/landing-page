@@ -133,8 +133,8 @@ main .random .articles article .text {
  color: #1F2937;
  display: block;
  /* padding: 4rem 1rem 3.5rem; */
- /* padding: 4rem 1rem 3.5rem; */
- margin: unset;
+ padding: 4rem 1rem 3.5rem;
+ margin: auto -7rem;
 }
 
 .quote blockquote figure {
