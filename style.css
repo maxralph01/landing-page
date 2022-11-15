@@ -167,6 +167,7 @@ main .random .articles article .text {
 
 .cta article .heading {
  font-weight: 700;
+ font-size: 1rem;
 }
 
 .cta article .body {
