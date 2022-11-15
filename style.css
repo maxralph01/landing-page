@@ -38,6 +38,7 @@ header .navbar nav {
 header .navbar nav ul {
  display: flex;
  justify-content: space-between;
+ gap: 1.5rem;
 }
 
 header .navbar nav ul li {
@@ -54,6 +55,7 @@ header .hero {
 
 header .hero .description {
  display: flex;
+ align-self: center;
  flex-direction: column;
  gap: 1rem;
  flex: auto;
@@ -84,6 +86,7 @@ header .hero .image_placeholder {
  background-color: #3f4c5e;
  flex: auto;
  width: 45%;
+ display: flex;
 }
 
 header .hero .image_placeholder p {
@@ -95,7 +98,7 @@ main {
 }
 
 main .random {
-
+ margin: 2rem auto 4rem;
 }
 
 main .random h2 {
@@ -105,8 +108,85 @@ main .random h2 {
 
 main .random .articles {
  display: flex;
+ justify-content: space-around;
+ margin: 2rem;
 }
 
 main .random .articles article {
- 
+ width: 7.5rem;
+}
+
+main .random .articles article .box {
+ border: 3.5px solid #3882F6;
+ /* width: 7.5rem; */
+ height: 7.5rem;
+ border-radius: 7.5px;
+}
+
+main .random .articles article .text {
+ /* width: 7.5rem; */
+ text-align: center;
+}
+
+.quote {
+ background-color: #E5E7EB;
+ color: #1F2937;
+ display: block;
+ /* padding: 4rem 1rem 3.5rem; */
+ /* padding: 4rem 1rem 3.5rem; */
+ margin: unset;
+}
+
+.quote blockquote figure {
+ margin: auto 10rem;
+}
+
+.quote blockquote {
+ margin: auto 10rem;
+}
+
+.quote figcaption {
+ text-align: right;
+ margin: auto 10rem;
+}
+
+.cta {
+ background-color: #3882F6;
+ color: #E5E7EB;
+ padding: 1.75rem 4rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 5px;
+ margin: 3.5rem auto;
+}
+
+.cta article {
+ flex: 0 0 70%;
+}
+
+.cta article .heading {
+ font-weight: 700;
+}
+
+.cta article .body {
+
+}
+
+.cta p {
+ flex: 0 0 30%;
+}
+
+.cta a {
+ text-decoration: none;
+ color: #F9FAF8;
+ border: 2px solid #F9FAF8;
+ border-radius: 5px;
+ padding: 0.15rem 1.5rem;
+}
+
+footer {
+ color: #F9FAF8;
+ text-align: center;
+ padding: 1.5rem;
 }
